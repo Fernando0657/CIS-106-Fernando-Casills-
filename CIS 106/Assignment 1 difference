@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-20 05:42:18 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQRDRIRks7MjAyMi0wOS0yMDswNDo0NTo0MCBQTTszMzIz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQRDRIRks7MjAyMi0wOS0yMDswNTo0MjoxOCBQTTszOzM0MzY="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="difference" type="Integer" array="False" size=""/>
+            <declare name="a" type="Integer" array="False" size=""/>
+            <declare name="b" type="Integer" array="False" size=""/>
+            <input variable="a"/>
+            <input variable="b"/>
+            <assign variable="difference" expression="a-b"/>
+            <output expression="difference" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
