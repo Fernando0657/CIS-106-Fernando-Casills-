@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-21 06:29:25 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUI2NTNNSk47MjAyMi0wOS0yMTswNjoyMTozNCBQTTszMzA2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUI2NTNNSk47MjAyMi0wOS0yMTswNjoyOToyNSBQTTsxOzM0MjI="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="Tax calculator "/>
+            <output expression="&quot;Please enter the cost of your item&quot;" newline="True"/>
+            <declare name="cost" type="Real" array="False" size=""/>
+            <input variable="cost"/>
+            <declare name="tax" type="Real" array="False" size=""/>
+            <assign variable="tax" expression="cost + 0.7"/>
+            <declare name="sum" type="Real" array="False" size=""/>
+            <assign variable="sum" expression="cost + tax"/>
+            <output expression="&quot;Item total is &quot; &amp; tax" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
