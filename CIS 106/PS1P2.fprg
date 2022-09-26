@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-26 05:50:46 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTBMRjlNRTg7MjAyMi0wOS0yNjswNTozODowNCBQTTszMzE1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTBMRjlNRTg7MjAyMi0wOS0yNjswNTo1MDo0NiBQTTsxOzM0MjM="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program outputs the extended price &#13;&#10;Quantity * Unit price "/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="e" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter quantity and unit price&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="e" expression="n1 * n2"/>
+            <output expression="e" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
