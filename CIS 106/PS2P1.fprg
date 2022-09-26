@@ -4,26 +4,26 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="PhotonUser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-20 06:13:28 PM"/>
-        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQRDRIRks7MjAyMi0wOS0yMDswNDo0NTo0MCBQTTszMzIz"/>
-        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTVQRDRIRks7MjAyMi0wOS0yMDswNjoxMzoyOCBQTTs0OzM0Mzc="/>
+        <attribute name="saved" value="2022-09-26 06:06:34 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLTBMRjlNRTg7MjAyMi0wOS0yNjswNTozODowNCBQTTszMzE1"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLTBMRjlNRTg7MjAyMi0wOS0yNjswNjowNjozNCBQTTsyOzM0MjM="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <output expression="&quot;Enter your name&quot;" newline="True"/>
-            <declare name="Name" type="String" array="False" size=""/>
-            <input variable="Name"/>
-            <output expression="&quot;Enter two test scores&quot;" newline="True"/>
-            <declare name="a" type="Integer" array="False" size=""/>
-            <declare name="b" type="Integer" array="False" size=""/>
-            <input variable="a"/>
-            <input variable="b"/>
-            <declare name="sum" type="Integer" array="False" size=""/>
-            <assign variable="sum" expression="a+b"/>
-            <declare name="Avg" type="Real" array="False" size=""/>
-            <assign variable="Avg" expression="sum/2"/>
-            <output expression="name &amp; avg" newline="True"/>
+            <comment text="This program will calculate your gross pay &#13;&#10;hours worked * hourly rate"/>
+            <declare name="lastname" type="String" array="False" size=""/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="g" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter your last name&quot;" newline="True"/>
+            <output expression="&quot;Enter hours worked&quot;" newline="True"/>
+            <output expression="&quot;Enter hourly rate&quot;" newline="True"/>
+            <input variable="lastname"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="g" expression="n1 * n2"/>
+            <output expression="lastname  &amp;  g" newline="True"/>
         </body>
     </function>
 </flowgorithm>
