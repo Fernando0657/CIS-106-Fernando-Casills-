@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 05:57:04 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNTo0OTo1MSBQTTszMzY2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNTo1NzowNCBQTTsxOzM0NzE="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program will get the average of two test scores "/>
+            <declare name="Lastname" type="String" array="False" size=""/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="sum" type="Real" array="False" size=""/>
+            <declare name="avg" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter your last name and two test scores&quot;" newline="True"/>
+            <input variable="lastname"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="sum" expression="n1 + n2"/>
+            <assign variable="avg" expression="sum/ 2"/>
+            <output expression="lastname &amp; avg" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
