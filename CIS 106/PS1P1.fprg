@@ -4,28 +4,23 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="PhotonUser"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2022-09-21 06:16:54 PM"/>
-        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUI2NTNNSk47MjAyMi0wOS0yMTswNTozMToxNyBQTTszMzA3"/>
-        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUI2NTNNSk47MjAyMi0wOS0yMTswNjoxNjo1NCBQTTsyOzM0MjE="/>
+        <attribute name="saved" value="2022-09-27 06:17:24 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNTo0OTo1MSBQTTszMzY2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNjoxNzoyNCBQTTsyOzM0NzE="/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
         <body>
-            <declare name="n1" type="Real" array="False" size=""/>
-            <declare name="n2" type="Real" array="False" size=""/>
-            <declare name="s" type="Real" array="False" size=""/>
-            <declare name="d" type="Real" array="False" size=""/>
-            <declare name="p" type="Real" array="False" size=""/>
-            <output expression="&quot;Please enter a real number&quot;" newline="True"/>
-            <input variable="n1"/>
-            <output expression="&quot;Please enter another real number&quot;" newline="True"/>
-            <input variable="n2"/>
-            <assign variable="s" expression="n1 + n2"/>
-            <assign variable="d" expression="n1 - n2"/>
-            <assign variable="p" expression="n1 * n2"/>
-            <output expression="&quot;The sum is &quot; &amp; s" newline="True"/>
-            <output expression="&quot;The difference is &quot; &amp; d" newline="True"/>
-            <output expression="&quot;The product is &quot; &amp; p" newline="True"/>
+            <comment text="This program will calculate extended price "/>
+            <declare name="qty" type="Real" array="False" size=""/>
+            <declare name="ppu" type="Real" array="False" size=""/>
+            <declare name="extprice" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter quantity ordered&quot;" newline="True"/>
+            <input variable="qty"/>
+            <output expression="&quot;Please enter price per unit&quot;" newline="True"/>
+            <input variable="ppu"/>
+            <assign variable="extprice" expression="qty * ppu"/>
+            <output expression="&quot;Your extended price is &quot; &amp; extprice" newline="True"/>
         </body>
     </function>
 </flowgorithm>
