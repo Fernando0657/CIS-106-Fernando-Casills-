@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-27 06:32:47 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNTo0OTo1MSBQTTszMzY2"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLVFNM0w3TlE7MjAyMi0wOS0yNzswNjozMjo0NyBQTTszOzM0NzQ="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <comment text="This program will calculate extended price "/>
+            <declare name="n1" type="Real" array="False" size=""/>
+            <declare name="n2" type="Real" array="False" size=""/>
+            <declare name="s" type="Real" array="False" size=""/>
+            <declare name="p" type="Real" array="False" size=""/>
+            <declare name="d" type="Real" array="False" size=""/>
+            <output expression="&quot;Please enter two numbers&quot;" newline="True"/>
+            <input variable="n1"/>
+            <input variable="n2"/>
+            <assign variable="s" expression="n1 + n2"/>
+            <assign variable="p" expression="n1 * n2"/>
+            <assign variable="d" expression="n1 - n2"/>
+            <output expression="&quot;The sum is &quot; &amp; s" newline="True"/>
+            <output expression="&quot;The product is &quot; &amp; p" newline="True"/>
+            <output expression="&quot;The differnece is &quot; &amp; d" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
