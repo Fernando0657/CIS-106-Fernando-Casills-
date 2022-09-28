@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-28 02:29:50 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUg1N0hTMlQ7MjAyMi0wOS0yODswMjoxNDo0OSBQTTszMzMz"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUg1N0hTMlQ7MjAyMi0wOS0yODswMjoyOTo1MCBQTTsxOzM0Mzk="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Please enter your last name and credits taken&quot;" newline="True"/>
+            <declare name="lname" type="String" array="False" size=""/>
+            <declare name="credits" type="Real" array="False" size=""/>
+            <declare name="tuiton" type="Real" array="False" size=""/>
+            <declare name="fee" type="Real" array="False" size=""/>
+            <input variable="lname"/>
+            <input variable="credits"/>
+            <assign variable="tuiton" expression="credits * 250"/>
+            <assign variable="fee" expression="tuiton + 100"/>
+            <output expression="lname &amp; &quot;This is how much your tuiton is &quot;  &amp;  tuiton" newline="False"/>
+            <output expression="&quot;Plus the lab fee &quot; &amp;  fee" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
