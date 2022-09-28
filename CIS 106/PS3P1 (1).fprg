@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-28 01:57:38 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUg1N0hTMlQ7MjAyMi0wOS0yODswMTozNDo0MyBQTTszMzI4"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUg1N0hTMlQ7MjAyMi0wOS0yODswMTo1NzozOCBQTTsxOzM0NDU="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <output expression="&quot;Please enter length and width&quot;" newline="True"/>
+            <declare name="length" type="Real" array="False" size=""/>
+            <declare name="width" type="Real" array="False" size=""/>
+            <declare name="area" type="Real" array="False" size=""/>
+            <declare name="per" type="Real" array="False" size=""/>
+            <input variable="length"/>
+            <input variable="width"/>
+            <assign variable="area" expression="length * width"/>
+            <assign variable="per" expression="2 * (length + width)"/>
+            <output expression="&quot;This is the area &quot; &amp; area" newline="True"/>
+            <output expression="&quot;The perimeter is &quot; &amp; per" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
