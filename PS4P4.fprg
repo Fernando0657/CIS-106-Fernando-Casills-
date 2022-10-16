@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="PhotonUser"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-10-16 03:58:37 PM"/>
+        <attribute name="created" value="UGhvdG9uVXNlcjtFQzJBTUFaLUcxNE9TVlA7MjAyMi0xMC0xNjswMzo1MDo0NiBQTTszMzUx"/>
+        <attribute name="edited" value="UGhvdG9uVXNlcjtFQzJBTUFaLUcxNE9TVlA7MjAyMi0xMC0xNjswMzo1ODozNyBQTTsxOzM0Njc="/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="numberOfTickets" type="Real" array="False" size=""/>
+            <declare name="costPerT" type="Real" array="False" size=""/>
+            <declare name="total" type="Real" array="False" size=""/>
+            <input variable="numberOfTickets"/>
+            <if expression="numberOfTickets &gt;= 25">
+                <then>
+                    <assign variable="costPerT" expression="50.00"/>
+                </then>
+                <else>
+                    <if expression="numberOfTickets &gt;= 10">
+                        <then>
+                            <assign variable="costPerT" expression="60.00"/>
+                        </then>
+                        <else>
+                            <if expression="numberOfTickets &gt;= 5">
+                                <then>
+                                    <assign variable="costPerT" expression="75"/>
+                                </then>
+                                <else>
+                                    <assign variable="costPerT" expression="75"/>
+                                </else>
+                            </if>
+                        </else>
+                    </if>
+                </else>
+            </if>
+            <assign variable="total" expression="costPerT * numberOfTickets"/>
+            <output expression="&quot;Cost of concert is $ &quot; &amp; total" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
