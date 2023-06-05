@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Machine Shop Website</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#about">About Us</a></li>
+        <li><a href="#portfolio">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="home">
+      <div class="hero">
+        <h1>Welcome to Our Machine Shop</h1>
+        <p>Delivering Precision Engineering Solutions</p>
+        <a href="#services" class="btn">Explore Our Services</a>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="services-container">
+        <h2>Our Services</h2>
+        <div class="service">
+          <img src="service1.jpg" alt="Service 1">
+          <h3>Service 1</h3>
+          <p>Description of Service 1</p>
+          <a href="service1.html" class="btn">Learn More</a>
+        </div>
+        <div class="service">
+          <img src="service2.jpg" alt="Service 2">
+          <h3>Service 2</h3>
+          <p>Description of Service 2</p>
+          <a href="service2.html" class="btn">Learn More</a>
+        </div>
+        <!-- Add more service entries as needed -->
+      </div>
+    </section>
+
+    <section id="about">
+      <div class="about-container">
+        <h2>About Us</h2>
+        <p>At our machine shop, we have been providing high-quality machining services for over 20 years. Our team of skilled engineers and technicians is dedicated to delivering precision engineering solutions for various industries.</p>
+        <p>We pride ourselves on our commitment to quality, attention to detail, and customer satisfaction. With state-of-the-art equipment and a focus on continuous improvement, we consistently meet and exceed our clients' expectations.</p>
+        <a href="about.html" class="btn">Learn More</a>
+      </div>
+    </section>
+
+    <section id="portfolio">
+      <div class="portfolio-container">
+        <h2>Our Portfolio</h2>
+        <div class="project">
+          <img src="project1.jpg" alt="Project 1">
+          <h3>Project 1</h3>
+          <p>Description of Project 1</p>
+          <a href="project1.html" class="btn">View Details</a>
+        </div>
+        <div class="project">
+          <img src="project2.jpg" alt="Project 2">
+          <h3>Project 2</h3>
+          <p>Description of Project 2</p>
+          <a href="project2.html" class="btn">View Details</a>
+        </div>
+        <!-- Add more project entries as needed -->
+      </div>
+    </section>
+
+    <section id="contact">
+      <div class="
